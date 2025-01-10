@@ -1,0 +1,41 @@
+.main_container{
+    /* border: 2px solid rgb(211, 2, 2); */
+    width: 100%;
+    margin: 50px auto;
+   
+    padding: 10px;
+   
+}
+#form{
+    width: 30%;
+   
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+#form input{
+ padding: 10px;
+ width: 100%;
+ border: 1px solid gray;
+ border-radius: 7px;
+}
+@media screen and (min-width:820px) and (max-width:1030px) {
+   #form{
+    width: 80%;
+   }
+}
+@media screen and (min-width:450px) and (max-width:819px) {
+#form{
+    width: 90%;
+}
+
+}
+@media screen and (min-width:50px) and (max-width:450px) {
+
+    #form{
+        width: 100%;
+        margin: 0px;
+    }
+    
+    }
